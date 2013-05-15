@@ -205,7 +205,7 @@
 		484B2B8C1743F390000649A6 /* CCPhysicsDebugNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 484B2B8B1743F390000649A6 /* CCPhysicsDebugNode.cpp */; };
 		484B2B8F1743F390000649A6 /* CCPhysicsSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 484B2B8E1743F390000649A6 /* CCPhysicsSprite.cpp */; };
 		484B2B961743F390000649A6 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 484B2B951743F390000649A6 /* AppDelegate.cpp */; };
-		484B2B991743F390000649A6 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 484B2B981743F390000649A6 /* HelloWorldScene.cpp */; };
+		484B2BA11743F46B000649A6 /* StartLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 484B2B9F1743F46B000649A6 /* StartLayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -646,8 +646,8 @@
 		484B2B921743F390000649A6 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		484B2B941743F390000649A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		484B2B951743F390000649A6 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		484B2B971743F390000649A6 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		484B2B981743F390000649A6 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		484B2B9F1743F46B000649A6 /* StartLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StartLayer.cpp; path = Classes/StartLayer.cpp; sourceTree = "<group>"; };
+		484B2BA01743F46B000649A6 /* StartLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartLayer.h; path = Classes/StartLayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1557,8 +1557,8 @@
 			children = (
 				484B2B941743F390000649A6 /* AppDelegate.h */,
 				484B2B951743F390000649A6 /* AppDelegate.cpp */,
-				484B2B971743F390000649A6 /* HelloWorldScene.h */,
-				484B2B981743F390000649A6 /* HelloWorldScene.cpp */,
+				484B2B9F1743F46B000649A6 /* StartLayer.cpp */,
+				484B2BA01743F46B000649A6 /* StartLayer.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1812,7 +1812,7 @@
 				484B2B8C1743F390000649A6 /* CCPhysicsDebugNode.cpp in Sources */,
 				484B2B8F1743F390000649A6 /* CCPhysicsSprite.cpp in Sources */,
 				484B2B961743F390000649A6 /* AppDelegate.cpp in Sources */,
-				484B2B991743F390000649A6 /* HelloWorldScene.cpp in Sources */,
+				484B2BA11743F46B000649A6 /* StartLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1889,6 +1889,7 @@
 				GCC_PREFIX_HEADER = TimerRush/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = TimerRush/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TimerRush/libs/cocos2dx/platform/third_party/ios/libraries\"",
@@ -1911,6 +1912,7 @@
 				GCC_PREFIX_HEADER = TimerRush/Prefix.pch;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = TimerRush/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TimerRush/libs/cocos2dx/platform/third_party/ios/libraries\"",
