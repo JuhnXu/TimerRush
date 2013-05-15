@@ -21,7 +21,9 @@ public:
     virtual bool init();
     CREATE_FUNC(StartLayer);
 
-
+    void start();
+//    virtual bool
+//    virtual bool ccTouchBegan(cocos2d::CCTouch *pTouch, cocos2d::CCEvent *pEvent);
 
 };
 

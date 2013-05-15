@@ -648,6 +648,7 @@
 		484B2B951743F390000649A6 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		484B2B9F1743F46B000649A6 /* StartLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StartLayer.cpp; path = Classes/StartLayer.cpp; sourceTree = "<group>"; };
 		484B2BA01743F46B000649A6 /* StartLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartLayer.h; path = Classes/StartLayer.h; sourceTree = "<group>"; };
+		4858D0AB1743FAFA00196731 /* Res.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Res.h; path = Classes/Res.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1559,6 +1560,7 @@
 				484B2B951743F390000649A6 /* AppDelegate.cpp */,
 				484B2B9F1743F46B000649A6 /* StartLayer.cpp */,
 				484B2BA01743F46B000649A6 /* StartLayer.h */,
+				4858D0AB1743FAFA00196731 /* Res.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1946,6 +1948,7 @@
 				484B2B9E1743F390000649A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
